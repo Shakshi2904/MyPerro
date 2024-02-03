@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position:sticky;
+    top: 0;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color:#EEEEEE;
+    height: 6vh;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    justify-content: space-evenly;
+}
+.leftnav a{
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.rightnav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+}
+.rightnav  button{
+    border: none;
+    font-size: 1.25vw;
+    background-color:#EEEEEE;
+}
+.nav2{
+    display: flex;
+    justify-content: right;
+    background-color:#C3C3C3;
+    height: 7vh;
+}
+.selectbox{
+    width: 35vw;
+    display:flex;
+    justify-content: space-evenly;
+}
+.selectbox select{
+    background-color:#C3C3C3;
+    border: none;
+    font-size: 1.25vw;
+}
+.name{
+    height: 50vh;
+    background-color:#FFF5DC;
+}
+.name h1{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    font-size: 4vw;
+    font-weight: 700;
+}
